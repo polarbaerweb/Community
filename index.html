@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Clinet first</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="container">
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione voluptatum iusto impedit accusamus ipsam, aspernatur fugiat magni debitis autem voluptatem maxime recusandae sed quae error, vero placeat natus sit molestiae.
+			</div>
+		</div>
+		<div class="main">
+			<div class="container">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius delectus optio asperiores aspernatur blanditiis in! Iusto itaque in adipisci doloremque sed deleniti, dicta illum rem exercitationem possimus numquam officiis. Id.
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="block__container">
+					<div class="block__item first">
+						<div class="first__text_ontainer">
+							<div class="lower__title">
+								{finsweet
+							</div>
+							<div id="copy" class="title__low">
+								&copy;COPYRIGHT FINSWEET 2022
+							</div>
+						</div>
+						<div class="second__text_ontainer">
+							<a href="callto:(480)555-0103" class="link">(480)555-0103</a>
+							<a href="emailto:finsweet@example.com" class="link">finsweet@example.com</a>
+							<p class="link">4517 Washington Ave.</p>
+						</div>
+					</div>
+					<div class="block__item second">
+						<div class="columns">
+							<div class="columns__item first">
+								<div class="title__low">
+									Quicklinks
+								</div>
+								<ul class="quick_novigator">
+									<li class="novigator__item">About us</li>
+									<li class="novigator__item">sermons</li>
+									<li class="novigator__item">events</li>
+									<li class="novigator__item">blog</li>
+								</ul>
+							</div>
+							<div class="columns__item second">
+								<div class="title__low">
+									connect
+								</div>
+								<ul class="massanger__container">
+									<a class="massanger__link" href="#"><img src="/images/Vector.svg"></a>
+									<a class="massanger__link" href="#"><img src="/images/Vector_2.svg"></a>
+									<a class="massanger__link" href="#"><img src="/images/Vector_3.svg"></a>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="block__item third">
+						<div class="limit__container">
+							<div class="lower__title">
+								Subscribe to get Latest Updates and News
+							</div>
+							<form action="#">
+								<div class="form__container">
+									<input type="email" class="input__item email" placeholder="Yourmail@gmail.com">
+									<button type="submit">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		const placeholder = document.querySelector(".email")
+		const attr = placeholder.getAttribute("placeholder")
+		placeholder.addEventListener("focus", function(event){
+			event.target.removeAttribute("placeholder")
+		})
+
+		placeholder.addEventListener("blur", function(event){
+			event.target.setAttribute("placeholder", attr)
+		})
+	</script>
+</body>
+</html>

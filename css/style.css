@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+}
+
+a {
+	display: block;
+}
+
+*:focus {
+	outline: none;
+}
+
+input,
+textarea,
+button {
+	padding: 5px 10px;
+}
+
+html {
+	font-size: 10px;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #161722;
+	color: #fff;
+}
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.main {
+	flex: 1 1 auto;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 2;
+	margin: 80px 0 0 0;
+	background-color: #ffd;
+}
+.footer {
+	flex: 0 1 70px;
+	background-color: #161722;
+	padding: 30px;
+}
+.block__container {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+.block__item {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	color: #fff;
+}
+.first {
+	flex: 1 1 40%;
+}
+.first__text_ontainer {
+	margin: 0 0 20px 0;
+}
+
+#copy {
+	margin: 10px 0 0 0;
+}
+
+.lower__title {
+	color: #df9679;
+	font-size: 2.5rem;
+}
+.second__text_ontainer {
+}
+.link {
+	color: #fff;
+}
+.second {
+	flex: 1 1 20%;
+}
+.columns {
+	display: flex;
+	align-items: flex-start;
+}
+.columns__item {
+	flex: 1 1 50%;
+}
+.title__low {
+	font-size: 2rem;
+}
+.quick_novigator {
+	margin: 20px 0 0 0;
+}
+.novigator__item {
+	font-size: 1.2rem;
+	line-height: 20px;
+	text-transform: uppercase;
+	opacity: 0.7;
+}
+.massanger__container {
+	margin: 10px 0 0 0;
+	display: flex;
+	gap: 10px;
+}
+.massanger__link {
+}
+.third {
+	flex: 1 1 40%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.limit__container {
+	width: 90%;
+	height: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.form__container {
+	display: flex;
+	align-items: center;
+}
+.input__item {
+	width: 300px;
+	height: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 12px 0 0 12px;
+	background-color: rgba(255, 255, 255, 0);
+	color: #fff;
+}
+.email:focus {
+	box-shadow: 0 0 5px #fff;
+	border: none;
+}
+.form__container > button {
+	width: 170px;
+	height: 50px;
+	border-radius: 0 12px 12px 0;
+	background-color: #ffd2a4;
+}
