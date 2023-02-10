@@ -56,13 +56,16 @@ html {
 .container {
 	max-width: 1280px;
 	margin: 0 auto;
+	padding: 0 20px;
 }
 .main {
 	flex: 1 1 auto;
 	font-size: 2rem;
-	font-weight: 600;
+	font-weight: 800;
 	line-height: 2;
 	background-color: #ffd;
+	border: none;
+	padding: 0;
 }
 .footer {
 	flex: 0 1 70px;
